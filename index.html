@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ARUNIKA INVITATION</title>
+
+  <!-- GOOGLE FONT -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- MUSIC -->
+<audio id="music" loop>
+  <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<!-- COVER / HERO -->
+<section class="hero">
+  <h2 class="brand">ARUNIKA INVITATION</h2>
+  <p class="tagline">Digital Wedding Invitation</p>
+
+  <p class="to">Kepada Yth.</p>
+  <h1 id="guest">Tamu Undangan</h1>
+
+  <button class="btn" onclick="openInvitation()">Buka Undangan</button>
+</section>
+
+<!-- MEMPELAI -->
+<section>
+  <h1>Nama Mempelai</h1>
+  <p>Putra & Putri Terbaik Keluarga</p>
+</section>
+
+<!-- CERITA CINTA -->
+<section class="soft">
+  <h2>Cerita Cinta</h2>
+  <div class="card">
+    <p>
+      Sebuah pertemuan sederhana yang membawa kami
+      pada perjalanan cinta hingga akhirnya bersatu
+      dalam ikatan suci pernikahan.
+    </p>
+  </div>
+</section>
+
+<!-- GALERI -->
+<section>
+  <h2>Galeri Foto</h2>
+  <div class="gallery card">
+    <img src="foto1.jpg" alt="">
+    <img src="foto2.jpg" alt="">
+    <img src="foto3.jpg" alt="">
+  </div>
+</section>
+
+<!-- LOKASI -->
+<section class="soft">
+  <h2>Lokasi Acara</h2>
+  <div class="map card">
+    <iframe
+      src="https://www.google.com/maps/embed"
+      loading="lazy">
+    </iframe>
+  </div>
+</section>
+
+<!-- WEDDING GIFT -->
+<section>
+  <h2>Wedding Gift</h2>
+  <div class="gift card">
+
+    <div class="bank">
+      <strong>Bank BCA</strong>
+      <p>1234567890<br>a.n. Nama Mempelai</p>
+      <button onclick="copyText('1234567890')">Salin Rekening</button>
+    </div>
+
+    <div class="bank">
+      <strong>DANA</strong>
+      <p>081234567890</p>
+      <button onclick="copyText('081234567890')">Salin DANA</button>
+    </div>
+
+    <!-- QR OPSIONAL -->
+    <!-- <img src="qris.png" class="qris"> -->
+
+  </div>
+</section>
+
+<!-- SHARE -->
+<section>
+  <h2>Bagikan Undangan</h2>
+  <a class="wa" href="#" onclick="shareWA()">Share WhatsApp</a>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  © 2025 <strong>ARUNIKA INVITATION</strong><br>
+  Elegant • Modern • Digital
+</footer>
+
+<!-- JS -->
+<script src="script.js"></script>
+</body>
+</html>

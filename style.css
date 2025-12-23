@@ -1,0 +1,138 @@
+/* ===============================
+   GLOBAL VARIABLE (CUSTOM THEME)
+================================ */
+:root{
+  --bg-image: url('bg-default.jpg');
+  --overlay: rgba(0,0,0,0.5);
+  --primary: #c8a97e;
+}
+
+/* RESET */
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family:'Poppins',sans-serif;
+  background:#b9ab90;
+  color:#333;
+  text-align:center;
+}
+
+/* SECTION */
+section{
+  padding:60px 20px;
+}
+
+/* TITLE */
+h1,h2{
+  font-family:'Playfair Display',serif;
+  margin-bottom:15px;
+}
+
+/* HERO */
+.hero{
+  height:100vh;
+  background:
+    linear-gradient(var(--overlay),var(--overlay)),
+    var(--bg-image) center/cover;
+  color:#b9ab90;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+.brand{
+  letter-spacing:2px;
+}
+
+.tagline{
+  font-size:14px;
+  opacity:.9;
+}
+
+.to{
+  margin-top:20px;
+}
+
+.btn{
+  margin-top:25px;
+  padding:12px 32px;
+  border:none;
+  border-radius:30px;
+  background:var(--primary);
+  color:#fff;
+  font-size:16px;
+  cursor:pointer;
+}
+
+/* SOFT BACKGROUND */
+.soft{
+  background:#b9ab5b;
+}
+
+/* CARD */
+.card{
+  max-width:600px;
+  margin:auto;
+}
+
+/* GALLERY */
+.gallery img{
+  width:100%;
+  border-radius:15px;
+  margin-bottom:15px;
+}
+
+/* MAP */
+.map iframe{
+  width:100%;
+  height:300px;
+  border:0;
+  border-radius:15px;
+}
+
+/* WEDDING GIFT */
+.gift{
+  background:#b9ab90;
+  padding:30px;
+  border-radius:20px;
+}
+
+.bank{
+  background:#252121;
+  padding:15px;
+  border-radius:15px;
+  margin-bottom:15px;
+}
+
+.bank button{
+  margin-top:10px;
+  padding:8px 20px;
+  border:none;
+  border-radius:20px;
+  background:var(--primary);
+  color:#fff;
+  cursor:pointer;
+}
+
+/* SHARE WA */
+.wa{
+  display:inline-block;
+  background:#9ec276;
+  color:#fff;
+  padding:12px 28px;
+  border-radius:30px;
+  text-decoration:none;
+}
+
+/* FOOTER */
+footer{
+  background:#111;
+  color:#b8a74b;
+  padding:30px;
+  font-size:14px;
+}
